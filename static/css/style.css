@@ -1,0 +1,42 @@
+#container{
+    position: relative;
+    top: 275px;
+}
+#title{
+    color: #404040;
+    text-align: center;
+    font: 35px "Space Mono", monospace;
+    font-weight: 800;
+}
+#map{
+    width: 1250px;
+    height: 500px;
+    margin: auto;
+}
+.legend .legend-scale ul{
+    margin: 15px;
+    text-align: center;
+}
+.legend .legend-scale ul li{
+    display: inline-block;
+    width: 100px;
+    color: #404040;
+    text-align: center;
+    font: 20px "Space Mono", monospace;
+    margin-left: auto;
+}
+.legend ul.legend-labels li span{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin-left: 35px;
+}
+.legend .legend-source{
+    color: #404040;
+    text-align: center;
+    font: 15px "Space Mono", monospace;
+}
+.legend a{
+    color: #404040;
+    font-style: italic;
+}
