@@ -4,9 +4,8 @@ This repository contains a simple [Flask](https://flask.palletsprojects.com/en/3
 ![screenshot](https://github.com/samuzilio/world_countries_visualiser/assets/94171193/c305ca4b-417c-4de6-8ff2-aee1e2ab1ebf)
 
 <br>
-<br>
-<br>
 
+## Instructions
 Follow these steps to set up and run the app on your local machine:
 
 **1**. Clone the repository:
