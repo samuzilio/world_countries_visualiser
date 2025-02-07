@@ -4,7 +4,7 @@ import folium
 # Create a Flask app
 app = Flask(__name__)
 
-# Create a Folium map
+# Initialize Folium map
 m = folium.Map(
     max_bounds=True,
     tiles=None,
@@ -23,7 +23,7 @@ folium.TileLayer(
     no_wrap=True
 ).add_to(m)
 
-# Define a style function for GeoJSON layer
+# Function to style GeoJSON layer
 region_color_mapping = {
     "Africa": "#e41a1c",
     "Americas": "#377eb8",
@@ -42,7 +42,7 @@ def style_function(feature):
         "weight": 1.00
     }
 
-# Add GeoJSON layer with style and tooltip
+# Add styled GeoJSON layer to the map
 political_countries_url = ("http://geojson.xyz/naturalearth-3.3.0/ne_50m_admin_0_countries.geojson")
 folium.GeoJson(
     political_countries_url,
@@ -63,7 +63,7 @@ folium.GeoJson(
     )
 ).add_to(m)
 
-# Save the map to an HTML file
+# Save the map as an HTML file
 m.save("templates/map.html")
 
 # Define a route for rendering the map
