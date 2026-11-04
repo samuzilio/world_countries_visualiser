@@ -13,9 +13,9 @@ Follow these steps to set up and run the app on your local machine.
 ```
 $ git clone https://github.com/samuzilio/world_countries_visualiser.git
 ```
-**2**. Launch your text editor;
-**3**. Open the cloned repository;
-**4**. Start a new terminal;
+**2**. Launch your text editor;  
+**3**. Open the cloned repository;  
+**4**. Start a new terminal;  
 **5**. Create and activate a virtual environment:
 ```
 $ python -m venv .venv
@@ -32,4 +32,4 @@ $ pip install -r requirements.txt
 ```
 $ python app.py
 ```
-**7**. Head to http://127.0.0.1:5000/ in your browser.
+**8**. Head to http://127.0.0.1:5000/ in your browser.
